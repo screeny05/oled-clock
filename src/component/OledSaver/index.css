@@ -1,0 +1,14 @@
+.oled-saver__child {
+    display: inline-block;
+    padding: 20px;
+}
+
+.oled-saver--active {
+    transition: transform 2s ease;
+    will-change: transform;
+}
+
+.offcanvas--active .oled-saver {
+    transition: transform 0.5s ease;
+    transform: translate(0, 50%) !important;
+}

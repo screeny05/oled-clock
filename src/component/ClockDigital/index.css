@@ -1,0 +1,58 @@
+.clock-basic--digital {
+  font-family: "DSEG14ClassicBoldItalic", sans-serif;
+  color: hsl(0 80% 45%);
+  line-height: 1;
+}
+
+.clock-basic--digital .clock-basic__date {
+  font-size: 0.35em;
+  line-height: 1;
+  display: block;
+  margin: 0.6em 0 0 .2em;
+  font-family: "Teko", sans-serif;
+}
+
+.clock-basic--super-digital {
+  font-family: "DSEG14ClassicItalic", sans-serif;
+  text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #ff4444, 0 0 0.5em #ff4444, 0 0 0.1em #ff4444, 0 10px 3px #000;
+  color: #fee;
+  line-height: 1;
+}
+
+.clock-basic--super-digital .clock-basic__date {
+  font-size: 0.25em;
+  line-height: 1;
+  display: block;
+  margin: 0.8em 0 0 1.2em;
+  font-family: "Teko", sans-serif;
+}
+
+
+
+.clock-basic--alexa {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 600;
+  color: hsl(30deg 80% 45%);
+  text-align: center;
+}
+
+.clock-basic--alexa .clock-basic__date {
+  font-size: 0.2em;
+  font-weight: 400;
+  margin-top: 0.1em;
+  text-transform: uppercase;
+}
+
+
+
+.clock-basic--modernist {
+  font-family: 'Geostar', sans-serif;
+  letter-spacing: 0.15em;
+  text-align: center;
+}
+
+.clock-basic--modernist .clock-basic__date {
+  font-family: 'Roboto Mono', sans-serif;
+  letter-spacing: -.04em;
+  font-size: 0.25em;
+}

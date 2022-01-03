@@ -1,0 +1,23 @@
+.offcanvas__menu {
+    position: absolute;
+    background: #303030;
+    width: 50%;
+    touch-action: auto;
+}
+
+.offcanvas__main {
+    background: #000;
+    position: relative;
+    box-shadow: 0 0px 13.7px rgba(0, 0, 0, 0.104),
+        0 0px 25.1px rgba(0, 0, 0, 0.132), 0 0px 40px rgba(0, 0, 0, 0.179),
+        0 0px 88px rgba(90, 89, 89, 0.4);
+}
+
+.offcanvas__clock-wrapper {
+    transform-origin: left center;
+}
+
+.offcanvas--still .offcanvas__main,
+.offcanvas--still .offcanvas__clock-wrapper {
+    transition: transform 0.3s ease;
+}
